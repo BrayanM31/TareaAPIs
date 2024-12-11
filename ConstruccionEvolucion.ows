@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(36.0, 196.0)" />
+		<node id="1" name="Edit Domain" qualified_name="Orange.widgets.data.oweditdomain.OWEditDomain" project_name="Orange3" version="" title="Edit Domain" position="(183.0, 191.0)" />
+		<node id="2" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(431.0, 126.0)" />
+		<node id="3" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(301.0, 210.0)" />
+		<node id="4" name="Sentiment Analysis" qualified_name="orangecontrib.text.widgets.owsentimentanalysis.OWSentimentAnalysis" project_name="Orange3-Text" version="" title="Sentiment Analysis" position="(513.0, 268.0)" />
+		<node id="5" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(606.0, 164.0)" />
+		<node id="6" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(635.0, 300.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="3" sink_node_id="2" source_channel="Data" sink_channel="Corpus" enabled="true" source_channel_id="data" sink_channel_id="corpus" />
+		<link id="3" source_node_id="2" sink_node_id="4" source_channel="Corpus" sink_channel="Corpus" enabled="true" source_channel_id="corpus" sink_channel_id="corpus" />
+		<link id="4" source_node_id="4" sink_node_id="5" source_channel="Corpus" sink_channel="Data" enabled="true" source_channel_id="corpus" sink_channel_id="data" />
+		<link id="5" source_node_id="4" sink_node_id="6" source_channel="Corpus" sink_channel="Corpus" enabled="true" source_channel_id="corpus" sink_channel_id="corpus" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVrQ4AAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxlQzovVXNlcnMvSHAvRG9jdW1lbnRvcy82dG8gc2VtZXN0cmUvQ29uc3RydWNjacOzbiB5
+IEV2b2x1Y2nDs24gZGUgU29mdHdhcmUvdGVjbm9sb2dpYXNTb2Z0d2FyZTY2Ni5jc3aUjAZwcmVm
+aXiUjAdiYXNlZGlylIwHcmVscGF0aJSMGnRlY25vbG9naWFzU29mdHdhcmU2NjYuY3N2lIwFdGl0
+bGWUjACUjAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViaAYpgZR9lChoCYxjQzovVXNlcnMvSHAv
+RG9jdW1lbnRvcy82dG8gc2VtZXN0cmUvQ29uc3RydWNjacOzbiB5IEV2b2x1Y2nDs24gZGUgU29m
+dHdhcmUvdGVjbm9sb2dpYXNTb2Z0d2FyZTEuY3N2lGgLaAxoDYwYdGVjbm9sb2dpYXNTb2Z0d2Fy
+ZTEuY3N2lGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjGJDOi9Vc2Vycy9IcC9Eb2N1bWVudG9zLzZ0
+byBzZW1lc3RyZS9Db25zdHJ1Y2Npw7NuIHkgRXZvbHVjacOzbiBkZSBTb2Z0d2FyZS90ZWNub2xv
+Z2lhc1NvZnR3YXJlLmNzdpRoC2gMaA2MF3RlY25vbG9naWFzU29mdHdhcmUuY3N2lGgPaBBoEWgQ
+aBJOdWJoBimBlH2UKGgJjFtDOi9Vc2Vycy9IcC9Eb2N1bWVudG9zLzZ0byBzZW1lc3RyZS9Db25z
+dHJ1Y2Npw7NuIHkgRXZvbHVjacOzbiBkZSBTb2Z0d2FyZS90ZWNub2xvZ2lhczEuY3N2lGgLaAxo
+DYwQdGVjbm9sb2dpYXMxLmNzdpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxaQzovVXNlcnMvSHAv
+RG9jdW1lbnRvcy82dG8gc2VtZXN0cmUvQ29uc3RydWNjacOzbiB5IEV2b2x1Y2nDs24gZGUgU29m
+dHdhcmUvdGVjbm9sb2dpYXMuY3N2lGgLaAxoDYwPdGVjbm9sb2dpYXMuY3N2lGgPaBBoEWgQaBJO
+dWJoBimBlH2UKGgJjF5DOi9Vc2Vycy9IcC9Eb2N1bWVudG9zLzZ0byBzZW1lc3RyZS9Db25zdHJ1
+Y2Npw7NuIHkgRXZvbHVjacOzbiBkZSBTb2Z0d2FyZS9NeXN0aWNNZXNzZW5nZXIuY3N2lGgLaAxo
+DYwTTXlzdGljTWVzc2VuZ2VyLmNzdpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxUQzovVXNlcnMv
+SHAvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3Jhbmdl
+L2RhdGFzZXRzL2lyaXMudGFilGgLjA9zYW1wbGUtZGF0YXNldHOUaA2MCGlyaXMudGFilGgPaBBo
+EWgQaBJOdWJoBimBlH2UKGgJjFdDOi9Vc2Vycy9IcC9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09y
+YW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvdGl0YW5pYy50YWKUaAtoKmgN
+jAt0aXRhbmljLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxXQzovVXNlcnMvSHAvQXBwRGF0
+YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRz
+L2hvdXNpbmcudGFilGgLaCpoDYwLaG91c2luZy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmM
+XUM6L1VzZXJzL0hwL0FwcERhdGEvTG9jYWwvUHJvZ3JhbXMvT3JhbmdlL0xpYi9zaXRlLXBhY2th
+Z2VzL09yYW5nZS9kYXRhc2V0cy9oZWFydF9kaXNlYXNlLnRhYpRoC2gqaA2MEWhlYXJ0X2Rpc2Vh
+c2UudGFilGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjF5DOi9Vc2Vycy9IcC9BcHBEYXRhL0xvY2Fs
+L1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvYnJvd24t
+c2VsZWN0ZWQudGFilGgLaCpoDYwSYnJvd24tc2VsZWN0ZWQudGFilGgPaBBoEWgQaBJOdWJoBimB
+lH2UKGgJjFNDOi9Vc2Vycy9IcC9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0
+ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvem9vLnRhYpRoC2gqaA2MB3pvby50YWKUaA9oEGgR
+aBBoEk51YmWMC3JlY2VudF91cmxzlF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAD/
+////////+QAABgAAAAMwAAAB4wAAACwAAAVkAAADPAAAAAACAAAABgAAAAAAAAAAFwAABf8AAAMv
+lIwLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwDdXJslGgQjA1kb21haW5fZWRpdG9ylH2UjAtf
+X3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCXZhcmlhYmxlc5RdlGhIfZRoVF2UKF2U
+KIwPZGF0YV9fYXV0aG9yX2lklIwUT3JhbmdlLmRhdGEudmFyaWFibGWUjBJDb250aW51b3VzVmFy
+aWFibGWUk5RLAGgQiGVdlCiMH2RhdGFfX2VkaXRfaGlzdG9yeV90d2VldF9pZHNfXy2UaFxLAGgQ
+iGVdlCiMI2RhdGFfX3B1YmxpY19tZXRyaWNzX19yZXR3ZWV0X2NvdW50lGhcSwBoEIhlXZQojCFk
+YXRhX19wdWJsaWNfbWV0cmljc19fcmVwbHlfY291bnSUaFxLAGgQiGVdlCiMIGRhdGFfX3B1Ymxp
+Y19tZXRyaWNzX19saWtlX2NvdW50lGhcSwBoEIhlXZQojCFkYXRhX19wdWJsaWNfbWV0cmljc19f
+cXVvdGVfY291bnSUaFqMEERpc2NyZXRlVmFyaWFibGWUk5RLAIwBMJSIZV2UKIwkZGF0YV9fcHVi
+bGljX21ldHJpY3NfX2Jvb2ttYXJrX2NvdW50lGhoSwCMBDAsIDGUiGVdlCiMJmRhdGFfX3B1Ymxp
+Y19tZXRyaWNzX19pbXByZXNzaW9uX2NvdW50lGhcSwBoEIhlXZQojAhkYXRhX19pZJRoXEsAaBCI
+ZV2UKIwPbWV0YV9fbmV3ZXN0X2lklGhcSwBoEIhlXZQojA9tZXRhX19vbGRlc3RfaWSUaFxLAGgQ
+iGVdlCiMEm1ldGFfX3Jlc3VsdF9jb3VudJRoXEsAaBCIZV2UKIwQbWV0YV9fbmV4dF90b2tlbpRo
+aEsAjC1iMjZ2ODljMTl6cWc4bzNmcnIzdGVrYXdjM2xzNnp4dXZtMGFsaTc1YjJ6cjGUiWVdlCiM
+CmRhdGFfX3RleHSUaFqMDlN0cmluZ1ZhcmlhYmxllJOUSwJoEIllXZQojBBkYXRhX19jcmVhdGVk
+X2F0lGh9SwJoEIllZXNoSksBdYwKYXR0cmlidXRlc5QoaFlLAoaUaF5LAoaUaGBLAoaUaGJLAoaU
+aGRLAoaUaGZdlGhpYYaUaGtdlChoaYwBMZRlhpRobksChpRocEsChpRocksChpRodEsChpRodksC
+hpRoeF2UaHlhhpR0lIwFbWV0YXOUaHtLA4aUaH9LA4aUhpSMCmNsYXNzX3ZhcnOUKYwSbW9kaWZp
+ZWRfdmFyaWFibGVzlF2UdWJoTymBlH2UKGhSfZQoaFRdlGhIfZRoVF2UKF2UKIwJYXV0aG9yX2lk
+lGhcSwBoEIhlXZQojBhlZGl0X2hpc3RvcnlfdHdlZXRfaWRzLzCUaFxLAGgQiGVdlCiMHHB1Ymxp
+Y19tZXRyaWNzL3JldHdlZXRfY291bnSUaFxLAGgQiGVdlCiMGnB1YmxpY19tZXRyaWNzL3JlcGx5
+X2NvdW50lGhcSwBoEIhlXZQojBlwdWJsaWNfbWV0cmljcy9saWtlX2NvdW50lGhcSwBoEIhlXZQo
+jBpwdWJsaWNfbWV0cmljcy9xdW90ZV9jb3VudJRoaEsAaGmIZV2UKIwdcHVibGljX21ldHJpY3Mv
+Ym9va21hcmtfY291bnSUaGhLAIwEMCwgMZSIZV2UKIwfcHVibGljX21ldHJpY3MvaW1wcmVzc2lv
+bl9jb3VudJRoXEsAaBCIZV2UKIwCaWSUaFxLAGgQiGVdlCiMBHRleHSUaH1LAmgQiWVdlCiMCmNy
+ZWF0ZWRfYXSUaH1LAmgQiWVlc2hKSwF1aIAoaKFLAoaUaKNLAoaUaKVLAoaUaKdLAoaUaKlLAoaU
+aKtdlGhpYYaUaK1dlChoaWiJZYaUaLBLAoaUaLJLAoaUdJRok2i0SwOGlGi2SwOGlIaUaJcpaJhd
+lHViaE8pgZR9lChoUn2UKGhUXZRoSH2UaFRdlF2UKIxEZGF0YSxtZXRhLm5ld2VzdF9pZCxtZXRh
+Lm9sZGVzdF9pZCxtZXRhLnJlc3VsdF9jb3VudCxtZXRhLm5leHRfdG9rZW6UaGhLAIwJIlt7J3Rl
+eHQnlIllYXNoSksBdWiAjERkYXRhLG1ldGEubmV3ZXN0X2lkLG1ldGEub2xkZXN0X2lkLG1ldGEu
+cmVzdWx0X2NvdW50LG1ldGEubmV4dF90b2tlbpRdlIwJIlt7J3RleHQnlGGGlIWUaJMpaJcpaJhd
+lHViZXUu
+</properties>
+		<properties node_id="1" format="pickle">gASV/AAAAAAAAAB9lCiMFF9kb21haW5fY2hhbmdlX2hpbnRzlH2UjAZTdHJpbmeUjApkYXRhX190
+ZXh0lCmGlIaUXZSMBlVubGlua5QphpRhc4wWX21lcmdlX2RpYWxvZ19zZXR0aW5nc5R9lIwSY29u
+dHJvbEFyZWFWaXNpYmxllIiMEW91dHB1dF90YWJsZV9uYW1llIwAlIwTc2F2ZWRXaWRnZXRHZW9t
+ZXRyeZRDQgHZ0MsAAwAAAAABtQAAAFoAAARKAAACuAAAAbYAAAB4AAAESQAAArcAAAAAAAAAAAYA
+AAABtgAAAHgAAARJAAACt5SMC19fdmVyc2lvbl9flEsEdS4=
+</properties>
+		<properties node_id="2" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x9b\x00\x00\x00V\x00\x00\x04\xe6\x00\x00\x02h\x00\x00\x01\x9c\x00\x00\x00t\x00\x00\x04\xe5\x00\x00\x02g\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\x9c\x00\x00\x00t\x00\x00\x04\xe5\x00\x00\x02g', 'storedsettings': {'name': '', 'preprocessors': [('preprocess.transform', {'methods': [0, 1, 2, 3]}), ('preprocess.tokenize', {}), ('preprocess.filter', {})]}, '__version__': 4}</properties>
+		<properties node_id="3" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00Z\x00\x00\x04\x90\x00\x00\x02\xb8\x00\x00\x01p\x00\x00\x00x\x00\x00\x04\x8f\x00\x00\x02\xb7\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00x\x00\x00\x04\x8f\x00\x00\x02\xb7', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import pandas as pd\nimport re\n\n# Función para limpiar el texto\ndef clean_text(text):\n    text = re.sub(r\'[^\\w\\s]\', \'\', text)  # Eliminar caracteres especiales\n    text = re.sub(r\'[^\\x00-\\x7F]+\', \'\', text)  # Eliminar emojis\n    return text\n\n# Función principal\ndef python_script(in_data):\n    # Asegurarse de que \'data_text\' está en los datos\n    if \'data_text\' in in_data.columns:\n        data = in_data.copy()\n        # Aplicar la función de limpieza a la columna \'data_text\'\n        data[\'data_text\'] = data[\'data_text\'].apply(clean_text)\n\n        # Asegúrate de devolver los datos modificados\n        out_data = data\n    else:\n        raise ValueError("La columna \'data_text\' no se encuentra en los datos.")\n\n    # No debe haber un return fuera de esta función\n    return out_data, out_learner, out_classifier, out_object', 'filename': None}], 'scriptText': 'import pandas as pd\nimport re\n\n# Función para limpiar el texto\ndef clean_text(text):\n    text = re.sub(r\'[^\\w\\s]\', \'\', text)  # Eliminar caracteres especiales\n    text = re.sub(r\'[^\\x00-\\x7F]+\', \'\', text)  # Eliminar emojis\n    return text\n\n# Función principal\ndef python_script(in_data):\n    # Asegurarse de que \'data_text\' está en los datos\n    if \'data_text\' in in_data.columns:\n        data = in_data.copy()\n        # Aplicar la función de limpieza a la columna \'data_text\'\n        data[\'data_text\'] = data[\'data_text\'].apply(clean_text)\n\n        # Asegúrate de devolver los datos modificados\n        out_data = data\n    else:\n        raise ValueError("La columna \'data_text\' no se encuentra en los datos.")\n\n    # No debe haber un return fuera de esta función\n    return out_data, out_learner, out_classifier, out_object', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa1\x00\x00\x00a\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="4" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'lilah_language': 'sl', 'liu_language': 'en', 'method_idx': 1, 'multi_language': 'en', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02R\x00\x00\x00\xe0\x00\x00\x03\xae\x00\x00\x023\x00\x00\x02S\x00\x00\x00\xfe\x00\x00\x03\xad\x00\x00\x022\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02S\x00\x00\x00\xfe\x00\x00\x03\xad\x00\x00\x022', 'senti_language': 'en', '__version__': 2}</properties>
+		<properties node_id="5" format="literal">{'auto_commit': True, 'auto_sample': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02/\x00\x00\x00d\x00\x00\x05.\x00\x00\x03\x93\x00\x00\x020\x00\x00\x00\x82\x00\x00\x05-\x00\x00\x03\x92\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x020\x00\x00\x00\x82\x00\x00\x05-\x00\x00\x03\x92', 'selection': None, 'tooltip_shows_all': True, 'visual_settings': {}, 'graph': {'alpha_value': 128, 'class_density': False, 'jitter_continuous': False, 'jitter_size': 0, 'label_only_selected': False, 'orthonormal_regression': False, 'point_width': 10, 'show_ellipse': False, 'show_grid': False, 'show_legend': True, 'show_reg_line': False}, '__version__': 5, 'context_settings': []}</properties>
+		<properties node_id="6" format="pickle">gASVcwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lE6MDnNlbGVjdGVkX3dvcmRzlI+UjAt3b3Jkc19jb2xvcpSIjAp3b3Jkc190aWx0lEsAjAtfX3Zl
+cnNpb25fX5RLAXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
